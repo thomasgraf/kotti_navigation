@@ -46,7 +46,7 @@ setup(name='kotti_navigation',
               'kotti_navigation = kotti_navigation.fanstatic:library',
           ],
       },
-      extras_require={},
+      #extras_require={},
       #message_extractors={'kotti_navigation': [
       #    ('**.py', 'lingua_python', None),
       #    ('**.zcml', 'lingua_xml', None),
