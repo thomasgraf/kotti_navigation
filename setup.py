@@ -47,9 +47,9 @@ setup(name='kotti_navigation',
           ],
       },
       extras_require={},
-      message_extractors={'kotti_navigation': [
-          ('**.py', 'lingua_python', None),
-          ('**.zcml', 'lingua_xml', None),
-          ('**.pt', 'lingua_xml', None),
-      ]},
+      #message_extractors={'kotti_navigation': [
+      #    ('**.py', 'lingua_python', None),
+      #    ('**.zcml', 'lingua_xml', None),
+      #    ('**.pt', 'lingua_xml', None),
+      #]},
       )
