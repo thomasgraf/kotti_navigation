@@ -41,11 +41,11 @@ setup(name='kotti_navigation',
           'kotti_settings>=0.2',
           'deform_bootstrap',
       ],
-      entry_points={
-          'fanstatic.libraries': [
-              'kotti_navigation = kotti_navigation.fanstatic:library',
-          ],
-      },
+      #entry_points={
+      #    'fanstatic.libraries': [
+      #        'kotti_navigation = kotti_navigation.fanstatic:library',
+      #    ],
+      #},
       #extras_require={},
       #message_extractors={'kotti_navigation': [
       #    ('**.py', 'lingua_python', None),
